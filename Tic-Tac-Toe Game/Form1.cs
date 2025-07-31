@@ -214,7 +214,7 @@ namespace Tic_Tac_Toe_Game
 		private void Form1_Load(object sender, EventArgs e)
 		{
 			FreezeGame();
-			con = new HubConnectionBuilder().WithUrl("http://localhost:5096/tictoe")
+			con = new HubConnectionBuilder().WithUrl("https://tictoegame.runasp.net/tictoe")
 			.WithAutomaticReconnect()
 			.Build();
 
